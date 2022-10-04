@@ -1,0 +1,14 @@
+
+.page__main {
+  margin-bottom: 92px;
+}
+@media screen and (max-width: 768px) {
+  .page__main {
+    margin-bottom: 90px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .page__main {
+    margin-bottom: 66px;
+  }
+}

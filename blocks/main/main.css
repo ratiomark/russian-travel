@@ -1,0 +1,22 @@
+
+.main {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 48px;
+  gap: 92px;
+}
+@media screen and (max-width: 959px) {
+  .main {
+    gap: 88px;
+    padding: 0 24px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .main {
+    gap: 64px;
+    padding: 0;
+  }
+}
