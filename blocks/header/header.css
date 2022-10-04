@@ -25,9 +25,3 @@
     padding: 16px 16px 48px 16px;
   }
 }
-@media screen and (max-width: 620px) {
-  .header__logo {
-    width: 142px;
-    height: 42px;
-  }
-}
