@@ -1,25 +1,28 @@
 
 .place__title {
-  align-self: end;
   margin: 0;
   padding: 0;
+  align-self: end;
   grid-area: heading;
   font-weight: 900;
-  font-size: 4.5rem;
+  font-size: 72px;
   line-height: 1.05;
   box-sizing: border-box;
 }
 @media screen and (max-width: 959px) {
   .place__title {
-    font-size: 2.625rem;
-    line-height: 1.09;
+    font-size: 42px;
+    width: 250px;
+    line-height: 1.095;
   }
 }
 @media screen and (max-width: 620px) {
   .place__title {
     align-self: start;
-    padding: 0 16px;
-    font-size: 1.777em;
-    line-height: 1.09;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 32px;
+    line-height: 1.093;
+    width: 288px;
   }
 }

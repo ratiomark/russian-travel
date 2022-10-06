@@ -2,19 +2,21 @@
 .lead__caption {
   font-size: 10px;
   line-height: 1.4;
-  letter-spacing: 1.5px;
   text-transform: uppercase;
   align-self: start;
   padding: 0;
   margin: 0;
+  letter-spacing: 1.5px;
 }
 @media screen and (max-width: 769px) {
   .lead__caption {
-    padding: 0 24px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 @media screen and (max-width: 620px) {
   .lead__caption {
-    padding: 0 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
