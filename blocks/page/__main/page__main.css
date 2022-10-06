@@ -4,11 +4,11 @@
 }
 @media screen and (max-width: 768px) {
   .page__main {
-    margin-bottom: 90px;
+    margin-bottom: 88px;
   }
 }
 @media screen and (max-width: 620px) {
   .page__main {
-    margin-bottom: 66px;
+    margin-bottom: 64px;
   }
 }
