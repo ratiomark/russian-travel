@@ -17,7 +17,8 @@
     padding-right: 24px;
   }
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 720px) {
+  /* тут нужен брейкпоинт, или появится горизонтальный скролл */
   .lead__title {
     padding-left: 0px;
     padding-right: 0px;

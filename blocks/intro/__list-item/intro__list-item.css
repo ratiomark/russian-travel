@@ -1,4 +1,6 @@
 
 .intro__list-item {
   display: flex;
+  font-size: 0.75em;
+  line-height: 1.5;
 }

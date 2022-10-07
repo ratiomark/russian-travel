@@ -14,9 +14,16 @@
   z-index: 1;
   cursor: pointer;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .cover {
     max-width: 100%;
+    /* padding-top: 195px; */
+    /* padding-bottom: 195px; */
+  }
+}
+@media screen and (max-width: 1024px) {
+  .cover {
+    /* max-width: 100%; */
     padding-top: 195px;
     padding-bottom: 195px;
   }

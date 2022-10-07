@@ -9,9 +9,15 @@
   margin: 0 auto;
   gap: 92px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .main {
     max-width: 100%;
+    gap: 88px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .main {
+    /* max-width: 100%; */
     gap: 88px;
   }
 }
