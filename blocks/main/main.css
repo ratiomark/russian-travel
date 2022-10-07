@@ -1,7 +1,7 @@
 
 .main {
   box-sizing: border-box;
-  max-width: 1184px;
+  max-width: min(1184px, 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,7 +11,7 @@
 }
 @media screen and (max-width: 1279px) {
   .main {
-    max-width: 100%;
+    /* max-width: 100%; */
     gap: 88px;
   }
 }
