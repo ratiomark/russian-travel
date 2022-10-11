@@ -9,15 +9,20 @@
 }
 @media screen and (max-width: 769px) {
   .places {
+    max-width: 100%;
     row-gap: 73px;
     padding-right: 24px;
     padding-left: 24px;
   }
 }
+@media screen and (max-width: 700px) {
+  .places {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
 @media screen and (max-width: 620px) {
   .places {
     row-gap: 50px;
-    padding-right: 0px;
-    padding-left: 0px;
   }
 }
