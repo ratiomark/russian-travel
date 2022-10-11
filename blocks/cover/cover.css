@@ -2,7 +2,7 @@
 .cover {
   width: 1184px;
   position: relative;
-  padding: 245px 0;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,30 +14,9 @@
   z-index: 1;
   cursor: pointer;
 }
-@media screen and (max-width: 1279px) {
+ @media screen and (max-width: 1279px) {
   .cover {
     max-width: 100%;
-    /* padding-top: 195px; */
-    /* padding-bottom: 195px; */
-  }
-}
-@media screen and (max-width: 1024px) {
-  .cover {
-    /* max-width: 100%; */
-    padding-top: 195px;
-    padding-bottom: 195px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .cover {
-    padding-top: 115px;
-    padding-bottom: 115px;
-  }
-}
-@media screen and (max-width: 560px) {
-  .cover {
-    padding-top: 33px;
-    padding-bottom: 33px;
   }
 }
 
