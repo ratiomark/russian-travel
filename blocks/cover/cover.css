@@ -2,34 +2,15 @@
 .cover {
   width: 1184px;
   position: relative;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  background-image: url("../../images/cover-trains.jpg");
-  background-size: cover;
-  background-position: center;
   z-index: 1;
-  cursor: pointer;
 }
  @media screen and (max-width: 1279px) {
   .cover {
     max-width: 100%;
   }
-}
-
-.cover::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: #2a2c2f;
-  opacity: 0.3;
-  z-index: 2;
-  transition: 0.5s;
-}
-
-.cover:hover::before {
-  opacity: 0.8;
 }
