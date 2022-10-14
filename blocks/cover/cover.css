@@ -1,16 +1,7 @@
-
 .cover {
-  width: 1184px;
+  width: 100%;
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 0 auto;
   z-index: 1;
 }
- @media screen and (max-width: 1279px) {
-  .cover {
-    max-width: 100%;
-  }
-}
+
